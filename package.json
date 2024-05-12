@@ -1,0 +1,41 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "Все апи работают с авторизацией. Можно использовать 2 варианта авторизации",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "format": "prettier --write ./src/",
+    "lint:js": "eslint ./src/**/*.js",
+    "lint:css": "stylelint ./src/**/*.css",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "http-server": "^14.1.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^9.2.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "globals": "^15.2.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.5.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "type": "module"
+}
