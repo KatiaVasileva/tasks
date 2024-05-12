@@ -11,11 +11,12 @@
     "format": "prettier --write ./src/",
     "lint:js": "eslint ./src/**/*.js",
     "lint:css": "stylelint ./src/**/*.css",
-    "prepare": "husky install"
+    "lint": "npm run lint:js",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/KatiaVasileva/tasks"
   },
   "keywords": [],
   "author": "",
